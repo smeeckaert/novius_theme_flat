@@ -1,0 +1,6 @@
+{
+
+    "require"    : {
+        "smeeckaert/jjg" : ">=1.0"
+    }
+}

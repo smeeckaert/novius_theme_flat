@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "43be320bc0058c70d3e084cd454c9410",
+    "packages": [
+        {
+            "name": "smeeckaert/jjg",
+            "version": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smeeckaert/Jean-Jacques-Goldman.git",
+                "reference": "ca9501c1f8b27c7d97da1b58f62ea1ab070b0b77"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smeeckaert/Jean-Jacques-Goldman/zipball/ca9501c1f8b27c7d97da1b58f62ea1ab070b0b77",
+                "reference": "ca9501c1f8b27c7d97da1b58f62ea1ab070b0b77",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Martin Smeeckaert",
+                    "email": "martin@smeeckaert.com"
+                }
+            ],
+            "description": "Bootstrap CSS over Foundation",
+            "time": "2015-09-08 12:58:05"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
