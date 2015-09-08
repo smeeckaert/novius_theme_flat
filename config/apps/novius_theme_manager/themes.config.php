@@ -5,10 +5,10 @@ return array(
         'name' => __('Flat'),
         'css'  => array(
             'minified' => array(
-                "monmin.css",
+                "static/apps/novius_theme_flat/css/theme.css",
             ),
             'raw'      => array(
-                "monraw.css",
+                "static/apps/novius_theme_flat/css/theme.css",
             ),
         ),
     ),
