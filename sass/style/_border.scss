@@ -1,6 +1,6 @@
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
     border     : none;
-    background : $toolbarBorder;
+    background : $toolbar;
 }
 
 .ui-widget-content {
@@ -9,12 +9,12 @@
 
 .wijmo-wijaccordion-content {
     border     : 0;
-    background : $toolbar;
+    background : $contentBackground;
 }
 
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
     box-shadow : none;
-    background : $toolbarActiveBorder;
+    background : $toolbarActive;
     border     : 0;
 }
 
@@ -23,7 +23,6 @@
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
-    border     : 1px solid $toolbarActiveBorder;
     background : $toolbarActive;
     border     : none;
 }

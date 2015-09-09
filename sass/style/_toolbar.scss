@@ -1,7 +1,8 @@
 .ui-widget-header {
-    background  : $toolbar;
+    background  : $white;
     text-shadow : none;
     color       : $toolbarcolor;
+    box-shadow  : none;
     @include transition();
 }
 
@@ -37,6 +38,8 @@
 }
 
 .nos-toolbar {
+
+    min-height : 30px;
     table {
         display : inline;
 

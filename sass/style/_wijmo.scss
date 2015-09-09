@@ -1,0 +1,44 @@
+.nos-appdesk .nos-appdesk-splitter-v .wijmo-wijsplitter-v-bar {
+    border           : 0;
+    background-color : $toolbar;
+}
+
+.wijmo-wijsuperpanel .wijmo-wijsuperpanel-vbarcontainer .wijmo-wijsuperpanel-vbar-buttontop,
+.wijmo-wijsuperpanel .wijmo-wijsuperpanel-vbarcontainer .wijmo-wijsuperpanel-vbar-buttonbottom {
+    background : $toolbar;
+    left       : 0;
+    height     : 24px;
+
+    &:hover {
+        background : $toolbarActive;
+    }
+}
+
+.wijmo-wijsuperpanel .wijmo-wijsuperpanel-vbarcontainer .wijmo-wijsuperpanel-vbar-buttonbottom {
+    height : 16px;
+}
+
+.wijmo-wijsuperpanel .wijmo-wijsuperpanel-vbarcontainer .wijmo-wijsuperpanel-vbar-buttonbottom .ui-icon {
+    margin-top : 0px;
+}
+
+.wijmo-wijsuperpanel-vbarcontainer .ui-state-default {
+    width      : 7px;
+    left       : 4px;
+    background : $toolbarActiveBorder;
+    @include transition(none);
+}
+
+.wijmo-wijgrid-split-area-se.wijmo-wijgrid-content-area {
+    table {
+        margin-top : -1px;
+    }
+}
+
+.wijmo-wijgrid tr.wijmo-wijgrid-row td, .wijmo-wijgrid tr.wijmo-wijgrid-row th {
+    border : 0;
+}
+
+.nos-appdesk .buttontd.wijgridtd {
+    height : 22px
+}

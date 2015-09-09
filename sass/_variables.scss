@@ -1,7 +1,8 @@
 $background : #ffffff;
-$toolbar : #eee;
+$contentBackground : #eee;
+$toolbar : #A5D6A7;
 $textcolor : #333;
-$menucolor : #ecf0f1;
+$menucolor : #264348;
 $primary : #3498db;
 $primaryTrigger : #2980b9;
 $inputColor : rgba(0, 0, 0, .05);
@@ -13,6 +14,6 @@ $toolbarActive : $toolbarBorder;
 $toolbarActiveBorder : darken($toolbar, 10);
 $toolbarcolor : $textcolor;
 
-$iconhover : $menucolor;
+$iconhover : $toolbar;
 $texthover : lighten($textcolor, 15);
 

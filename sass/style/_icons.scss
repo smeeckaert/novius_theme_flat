@@ -16,3 +16,12 @@
 .ui-state-default .ui-icon, .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-state-active .ui-icon {
     background-image : url('/static/apps/novius_theme_flat/img/style/ui-icons_222222_256x240.png');
 }
+
+.nos-icon16-eye, .ui-state-active .nos-icon16-eye, .ui-state-default .nos-icon16-eye {
+    background-image: url('/static/novius-os/admin/novius-os/img/icons/eye-38667f.png');
+}
+
+.nos-icon16-share, .ui-state-active .nos-icon16-share, .ui-state-default .nos-icon16-share
+{
+    background-image: url('/static/novius-os/admin/novius-os/img/icons/share-38667f.png');
+}
