@@ -2,6 +2,8 @@
     background  : $toolbar;
     text-shadow : none;
     color       : $toolbarcolor;
+    @include transition();
+
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
@@ -11,18 +13,20 @@
     //color         : $textcolor;
     border-radius : 0;
     box-shadow    : none;
+    @include transition();
+
 }
 
 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
     text-shadow : none;
     color       : $toolbarcolor;
+    @include transition();
 
 }
-
-
 
 .nos-appdesk .nos-appdesk-splitter-v .nos-appdesk-vpanel-left .nos-appdesk-hpanel-bottom .nos-appdesk-searchbar-container .nos-appdesk-input-container {
     font-size : 0.85rem;
     color     : $textcolor;
+    @include transition();
 
 }

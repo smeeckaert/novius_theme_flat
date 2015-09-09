@@ -1,0 +1,9 @@
+.wijmo-wijgrid tr.wijmo-wijgrid-row {
+    @include transition();
+}
+
+.wijmo-wijgrid tr.wijmo-wijgrid-row.ui-state-hover, .wijmo-wijgrid .wijmo-wijgrid-current-cell, .wijmo-wijgrid td.wijmo-wijgrid-rowheader.ui-state-active {
+    background  : $toolbar;
+    color       : $toolbarcolor;
+    text-shadow : none;
+}

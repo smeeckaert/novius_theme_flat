@@ -1,11 +1,30 @@
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
-    border : 1px solid $toolbarBorder;
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border-color : $toolbarBorder;
+}
+
+.ui-widget-content {
+    border-color : $toolbarActiveBorder;
 }
 
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
     box-shadow   : none;
     background   : $toolbarActive;
     border-color : $toolbarActiveBorder;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border     : 1px solid $toolbarActiveBorder;
+    background : $toolbarActive;
+}
+
+input.ui-widget.ui-priority-primary, button.ui-widget.ui-priority-primary, input.ui-widget.primary, button.ui-widget.primary {
+    border-style : solid;
+    background   : $primary;
+    color        : $white;
+
+    &:hover {
+        background : $primaryTrigger;
+    }
 }
 
 .ui-corner-bottom,

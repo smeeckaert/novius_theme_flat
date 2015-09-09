@@ -1,12 +1,18 @@
 #noviusospanel {
 
     .nos-desktop-apps {
+        padding    : 10px;
 
         background : $background;
 
         .app {
+            margin  : 20px;
+            padding : 20px 20px 5px;
+            @include transition();
 
-            padding : 0;
+            &:hover {
+                background : $iconhover;
+            }
 
             .icon {
                 border-radius : 0;

@@ -1,3 +1,5 @@
+@import "../vendor/smeeckaert/jjg/sass/config/config";
+@import "../vendor/smeeckaert/jjg/sass/mixin/mixin";
 @import "variables";
 @import "style/base";
 @import "style/desktop";
@@ -7,3 +9,6 @@
 @import "style/border";
 @import "style/header";
 @import "style/menu";
+@import "style/grid";
+@import "style/separator";
+@import "style/link";

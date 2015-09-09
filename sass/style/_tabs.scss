@@ -2,6 +2,7 @@
 
     .nos-ostabs-selected {
         background : $background;
+        @include transition();
     }
 }
 
