@@ -3,7 +3,12 @@
     text-shadow : none;
     color       : $toolbarcolor;
     @include transition();
+}
 
+.nos-toolbar {
+    border      : 0;
+    padding-top : 2px;
+    background  : $toolbarActive;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
@@ -29,4 +34,21 @@
     color     : $textcolor;
     @include transition();
 
+}
+
+.nos-toolbar {
+    table {
+        display : inline;
+
+    }
+
+    .nos-toolbar-right {
+        table {
+            float : right;
+        }
+    }
+
+    td.nos-toolbar-left {
+        padding : 0;
+    }
 }

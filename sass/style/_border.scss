@@ -1,17 +1,21 @@
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-    border-color : $toolbarBorder;
-    border       : none;
-    background   : $toolbarBorder;
+    border     : none;
+    background : $toolbarBorder;
 }
 
 .ui-widget-content {
-    border-color : $toolbarActiveBorder;
+    border : 0;
+}
+
+.wijmo-wijaccordion-content {
+    border     : 0;
+    background : $toolbar;
 }
 
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-    box-shadow   : none;
-    background   : $toolbarActive;
-    border-color : $toolbarActiveBorder;
+    box-shadow : none;
+    background : $toolbarActiveBorder;
+    border     : 0;
 }
 
 .ui-state-error, .ui-widget-content .ui-state-error, .ui-widget-header .ui-state-error {
@@ -39,7 +43,3 @@ input.ui-widget.ui-priority-primary, button.ui-widget.ui-priority-primary, input
     border-radius : 0;
 }
 
-input[type=text], input[type=password], input[type=email], input[type=number], input[type=date], input[type=datetime], input[type=datetime-local], input[type=color], input[type=tel], input[type=time], input[type=url], input[type=week], textarea, select {
-    border-radius : 0;
-    box-shadow    : none;
-}

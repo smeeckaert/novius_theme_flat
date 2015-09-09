@@ -1,14 +1,16 @@
 $background : #ffffff;
-$toolbar : #FAFAFA;
+$toolbar : #eee;
 $textcolor : #333;
 $menucolor : #ecf0f1;
 $primary : #3498db;
 $primaryTrigger : #2980b9;
+$inputColor : rgba(0, 0, 0, .05);
+$inputColorActive : rgba(0, 0, 0, .1);
 
 $white : $background;
-$toolbarBorder : darken($toolbar, 10);
+$toolbarBorder : darken($toolbar, 5);
 $toolbarActive : $toolbarBorder;
-$toolbarActiveBorder : darken($toolbar, 15);
+$toolbarActiveBorder : darken($toolbar, 10);
 $toolbarcolor : $textcolor;
 
 $iconhover : $menucolor;
