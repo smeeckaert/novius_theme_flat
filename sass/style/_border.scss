@@ -1,0 +1,19 @@
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border : 1px solid $toolbarBorder;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    box-shadow   : none;
+    background   : $toolbarActive;
+    border-color : $toolbarActiveBorder;
+}
+
+.ui-corner-bottom,
+.ui-corner-all {
+    border-radius : 0;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=number], input[type=date], input[type=datetime], input[type=datetime-local], input[type=color], input[type=tel], input[type=time], input[type=url], input[type=week], textarea, select {
+    border-radius : 0;
+    box-shadow    : none;
+}

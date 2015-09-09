@@ -1,0 +1,18 @@
+.nos-ostabs div.nos-ostabs-tabs li a .nos-ostabs-icon {
+
+    &.nos-icon16-add {
+        background  : none;
+        text-indent : 0;
+
+        &:before {
+            content     : "+";
+            font-size   : 26px;
+            font-weight : 600;
+            text-indent : 0;
+        }
+    }
+}
+
+.ui-state-default .ui-icon, .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-state-active .ui-icon {
+    background-image : url('/static/apps/novius_theme_flat/img/style/ui-icons_222222_256x240.png');
+}

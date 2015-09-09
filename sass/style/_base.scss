@@ -1,3 +1,16 @@
-body {
-    width : 30%;
+@import url(https://fonts.googleapis.com/css?family=Lato:400,600,700);
+
+#noviusos {
+    left        : 0;
+    right       : 0;
+    bottom      : 0;
+    font-family : 'Lato', sans-serif;
+}
+
+body.nos-background {
+    background : $menucolor;
+}
+
+.ui-widget, .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
+    font-family : 'Lato', sans-serif;
 }

@@ -1,0 +1,15 @@
+.nos-ostabs .nos-ostabs-header {
+
+    .nos-ostabs-selected {
+        background : $background;
+    }
+}
+
+.nos-ostabs .nos-ostabs-panel {
+    border-top : 1px solid $toolbar;
+}
+
+.nos-ostabs div.nos-ostabs-tabs li a .nos-ostabs-label {
+    font-weight : 600;
+    text-shadow : none;
+}

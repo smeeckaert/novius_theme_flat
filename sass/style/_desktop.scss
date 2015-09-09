@@ -1,0 +1,29 @@
+#noviusospanel {
+
+    .nos-desktop-apps {
+
+        background : $background;
+
+        .app {
+
+            padding : 0;
+
+            .icon {
+                border-radius : 0;
+                background    : none;
+                box-shadow    : none;
+
+                .gloss {
+                    display : none;
+                }
+            }
+
+            .text {
+                line-height : 16px;
+                padding     : 0;
+                background  : none;
+                color       : $textcolor;
+            }
+        }
+    }
+}
