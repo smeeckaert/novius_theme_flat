@@ -57,6 +57,20 @@
         display : block;
         height  : 33px;
         top     : 0;
+
+        a {
+            color : $toolbarcolor !important;
+
+            &:hover {
+                color : $toolbarcolorActive !important;
+            }
+        }
+
+        &.nos-ostabs-selected {
+            a {
+                color : $toolbar !important;
+            }
+        }
     }
 }
 

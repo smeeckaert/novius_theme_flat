@@ -1,6 +1,7 @@
 input[type=text], input[type=password], input[type=email], input[type=number], input[type=date], input[type=datetime], input[type=datetime-local], input[type=color], input[type=tel], input[type=time], input[type=url], input[type=week], textarea, select {
     box-shadow    : none;
     border        : none;
+    border        : 1px solid $inputBorder;
     background    : $inputColor;
     border-radius : 0;
     text-shadow   : none;
@@ -9,7 +10,7 @@ input[type=text], input[type=password], input[type=email], input[type=number], i
     &:active, &:focus, &:hover {
 
         box-shadow  : none;
-        border      : none;
+        border      : 1px solid $inputBorder;
         background  : $inputColorActive;
         text-shadow : none;
     }

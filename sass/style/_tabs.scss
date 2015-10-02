@@ -3,9 +3,6 @@
     .nos-ostabs-selected {
         background : $background;
         @include transition();
-        a {
-            color : $toolbar !important;
-        }
     }
 }
 

@@ -6,9 +6,10 @@
         background : $background;
 
         .app {
-            margin  : 20px;
-            padding : 20px 20px 5px;
+            margin     : 20px;
+            padding    : 20px 20px 5px;
             @include transition();
+            box-shadow : 3px 3px 1px 0px rgba(0, 0, 0, 0.05);
 
             &:hover {
                 background : $iconhover;

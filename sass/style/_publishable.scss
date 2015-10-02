@@ -2,3 +2,13 @@
     float  : left;
     margin : 2px 0 0 2px;
 }
+
+.publishable_radio {
+
+    .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+        background : $publishable;
+    }
+    .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+        background : $publishableActive;
+    }
+}

@@ -1,8 +1,19 @@
 a {
-    color : $toolbarcolor !important;
+    color : $textcolor !important;
     @include transition();
 
     &:hover, &:active, &:focus {
-        color : $toolbarcolorActive !important;
+        color : $texthover !important;
+    }
+}
+
+.nos-toolbar {
+    a {
+        color : $toolbarcolor !important;
+        @include transition();
+
+        &:hover, &:active, &:focus {
+            color : $toolbarcolorActive !important;
+        }
     }
 }
