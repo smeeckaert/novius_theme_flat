@@ -1,0 +1,51 @@
+input[type="checkbox"], .fieldset input[type=checkbox] {
+    position : relative;
+    top      : rem(-6);
+
+    margin   : 0 1rem 0 0;
+    width    : 1rem;
+    height   : 1rem;
+
+    cursor   : pointer;
+
+    &:before {
+        @include transition();
+
+        content  : "";
+
+        position : absolute;
+        left     : 0;
+        z-index  : 1;
+
+        width    : 1rem;
+        height   : 1rem;
+
+        border   : 2px solid $toolbar;
+    }
+
+    &:checked {
+        &:before {
+            transform          : rotate(-45deg);
+
+            height             : .5rem;
+
+            border-color       : $toolbar;
+            border-top-style   : none;
+            border-right-style : none;
+        }
+    }
+
+    &:after {
+        content    : "";
+
+        position   : absolute;
+        top        : rem(-2);
+        left       : 0;
+
+        width      : 1rem;
+        height     : 1rem;
+        background : #fff;
+
+        cursor     : pointer;
+    }
+}

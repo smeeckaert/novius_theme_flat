@@ -1,3 +1,80 @@
 .nos-ostabs .nos-ostabs-header {
-    height : 30px;
+    height   : 30px;
+    width    : $toolbarSize;
+    float    : left;
+    position : relative;
+    display  : block;
+}
+
+.nos-ostabs .nos-ostabs-header ul.nos-ostabs-desktoptab {
+    height : 60px;
+}
+
+.nos-ostabs .nos-ostabs-header li.nos-ostabs-desktoptab {
+    margin : 5px;
+}
+
+.nos-ostabs .nos-ostabs-header ul.nos-ostabs-desktoptab {
+    position : relative;
+}
+
+.nos-ostabs div.nos-ostabs-tabs {
+    display        : block;
+    position       : relative;
+    left           : 0px !important;
+    width          : 100% !important;
+
+    $size : calc(100vh - 80px);
+
+    height         : $size !important;
+    background     : $toolbar;
+    padding-top    : 10px;
+    padding-bottom : 10px;
+
+    .wijmo-wijsuperpanel-button {
+        display : none;
+    }
+
+    .wijmo-wijsuperpanel-statecontainer {
+
+        height : $size !important;
+
+        .wijmo-wijsuperpanel-contentwrapper {
+
+            height : $size !important;
+
+        }
+    }
+}
+
+.nos-ostabs .nos-ostabs-header .wijmo-wijsuperpanel-statecontainer ul {
+    padding    : 0;
+    overflow-y : auto;
+    width      : 120% !important;
+
+    li {
+        float   : none;
+        display : block;
+        height  : 33px;
+        top     : 0;
+    }
+}
+
+.nos-ostabs div.nos-ostabs-tabs li a {
+    float   : none;
+    display : block;
+}
+
+.nos-ostabs div.nos-ostabs-tabs li a .nos-ostabs-icon {
+    float   : none;
+    display : inline-block;
+    top     : -3px !important;
+}
+
+.nos-ostabs div.nos-ostabs-tabs li.ui-state-active {
+    height : auto;
+}
+
+.nos-ostabs div.nos-ostabs-tabs li a .nos-ostabs-label {
+    top : 3px;
 }

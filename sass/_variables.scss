@@ -1,19 +1,21 @@
-$background : #ffffff;
+$background : #EEF3F4;
 $contentBackground : #eee;
-$toolbar : #A5D6A7;
+$toolbar : #40464B;
 $textcolor : #333;
-$menucolor : #264348;
-$primary : #3498db;
-$primaryTrigger : #2980b9;
-$inputColor : rgba(0, 0, 0, .05);
-$inputColorActive : rgba(0, 0, 0, .1);
+$menucolor : #EEF3F4;
+$primary : #6CB5F4;
+$primaryTrigger : darken($primary, 15);
+$inputColor : #D6DADB;
+$inputColorActive : darken($inputColor, 5);
 
 $white : $background;
 $toolbarBorder : darken($toolbar, 5);
 $toolbarActive : $toolbarBorder;
 $toolbarActiveBorder : darken($toolbar, 10);
-$toolbarcolor : $textcolor;
+$toolbarcolor : lighten(#9B9D9F, 20);
+$toolbarcolorActive : lighten($toolbarcolor, 20);
 
 $iconhover : $toolbar;
 $texthover : lighten($textcolor, 15);
 
+$toolbarSize : 20%;

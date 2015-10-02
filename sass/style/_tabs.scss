@@ -3,12 +3,18 @@
     .nos-ostabs-selected {
         background : $background;
         @include transition();
+        a {
+            color : $toolbar !important;
+        }
     }
 }
 
 .nos-ostabs .nos-ostabs-panel {
     border     : 0;
     margin-top : -1px;
+    width      : calc(100% - $toolbarSize);
+    left       : $toolbarSize;
+    top        : 0;
 }
 
 .nos-ostabs div.nos-ostabs-tabs li a .nos-ostabs-label {

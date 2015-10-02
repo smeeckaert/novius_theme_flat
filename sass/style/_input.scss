@@ -10,7 +10,7 @@ input[type=text], input[type=password], input[type=email], input[type=number], i
 
         box-shadow  : none;
         border      : none;
-        background  : darken($inputColorActive, 15);
+        background  : $inputColorActive;
         text-shadow : none;
     }
 }
